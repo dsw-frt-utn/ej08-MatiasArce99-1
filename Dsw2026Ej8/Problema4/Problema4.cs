@@ -13,10 +13,11 @@ public class Problema4
         if (nota1 != null && nota2 != null && nota3 != null)
         {
             promedio = (double)(nota1 + nota2 + nota3)/3;
+            return promedio;
         } else
         {
             Console.WriteLine("Las notas no pueden ser NULL");
         }
-        return $"{promedio}";
+        return 0;
     }
 }
